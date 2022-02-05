@@ -3,6 +3,7 @@ import mediapipe as mp
 import time
 import math
 
+# Hand
 class handDector():
     def __init__(self, mode=False, maxHand=2, detectionCon=1, trackCon=0.7):
         self.mode = mode
