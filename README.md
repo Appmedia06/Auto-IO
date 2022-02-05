@@ -14,5 +14,10 @@ To control the mouse and keyboard with two different modes.
 * Little finger UP : RIGHT
 * Middle finger UP : UP
 * Ring finger UP : DOWN
-# Screenshots
+# Screenvideoes
+## MONO MODE
+
+## CONTI MODE
+
+
 
