@@ -27,6 +27,7 @@ down_key_pressed = down_pressed
 
 time.sleep(2.0)
 current_key_pressed = set()
+
 ##################################
 wCam, hCam = 640, 480
 IndexId, MiddleId = 8, 12
@@ -34,10 +35,12 @@ fingerNum = [0, 1, 2, 3, 4]
 centerPosxId, centerPosyId = 4, 5
 frameR = 100 # Frame Reduction
 smoothening = 7
+
 ##################################
 mono = False
 conti = False
-
+mono_key = 0 # 偶數
+conti_key = 0 # 奇數
 ###################################
 
 cap = cv2.VideoCapture(0)
@@ -65,9 +68,6 @@ while True:
     up_pressed = False
     down_pressed = False
     #####################
-    mono_key = 0 # 偶數
-    conti_key = 0 # 奇數
-    #####################
     key_count = 0
     key_pressed = 0
 
@@ -94,7 +94,7 @@ while True:
         if fingers.count(1) == 5:
             mono_key += 1
             conti_key += 1
-            time.sleep(0.8)
+            time.sleep(0.7)
 
         # 單一模式
         if mono_key % 2 == 0:
