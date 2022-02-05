@@ -8,8 +8,8 @@ To control the mouse and keyboard with two different modes.
 * Works when browsing website or code.
 # Manipulating Method
 * Five fingers UP: Change Mode
-* Index finger UP   : mouse move
-* Index and middle fingers touch together : click
+* Index finger UP   : Mouse move
+* Index and middle fingers touch together : Click
 * Thumb UP          : LEFT
 * Little finger UP  : RIGHT
 * Middle finger UP  : UP
