@@ -16,7 +16,6 @@ To control the mouse and keyboard with two different modes.
 * Ring finger UP : DOWN
 # Screenvideoes
 ## MONO MODE
-
 ## CONTI MODE
 
 
